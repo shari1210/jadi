@@ -28,24 +28,24 @@ cd ..
 Now install the dependencies
 ```shell
 cd server
-yarn
+npm i
 cd ..
 cd public
-yarn
+npm i
 ```
 We are almost done, Now just start the development server.
 
 For Frontend.
 ```shell
 cd public
-yarn start
+npm start
 ```
 For Backend.
 
 Open another terminal in folder, Also make sure mongodb is running in background.
 ```shell
 cd server
-yarn start
+npm start
 ```
 
 Done! Now open localhost:3000 in your browser.
