@@ -25,13 +25,13 @@ cd ..
 
 >Note: **Make sure a MongoDB server is running and update ``/server/.env`` the MONGO_URL accordingly.**
 
-Now install the dependencies
+Now install the dependencies for backend and frontend.
 ```shell
 cd server
-yarn
+yarn install
 cd ..
 cd public
-yarn
+yarn install
 ```
 We are almost done, Now just start the development server.
 
