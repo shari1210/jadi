@@ -3,7 +3,7 @@ name: Push Workflow!!
 on:
   push:
     branches:
-      - release
+      - staging
 
 jobs:
   build:
